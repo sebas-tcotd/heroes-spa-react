@@ -7,7 +7,7 @@ export const childHeroesRoutes = [
   { path: "/dc", element: <DCPage /> },
   { path: "/search", element: <SearchPage /> },
   { path: "/hero/:id", element: <HeroPage /> },
-  // { path: "/*", element: <Navigate to={"/marvel"} /> },
+  { path: "/", element: <Navigate to={"/marvel"} /> },
 ];
 
 export const HeroesRoutes = () => {
